@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.orionlibs</groupId>
     <artifactId>orion-excel</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>Orion Excel</name>
     <description>Java MS Excel library</description>
     <url>https://github.com/orionlibs/orion-excel</url>
@@ -227,11 +227,18 @@
 
     <dependencies>
         <dependency>
+            <groupId>io.github.orionlibs</groupId>
+            <artifactId>orion-object</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+
+
+        <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
             <version>5.3.0</version>
         </dependency>
-        
+
         
         <dependency>
             <groupId>org.apache.poi</groupId>

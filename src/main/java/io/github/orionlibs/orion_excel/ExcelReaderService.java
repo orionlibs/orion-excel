@@ -1,5 +1,6 @@
 package io.github.orionlibs.orion_excel;
 
+import io.github.orionlibs.orion_object.ResourceCloser;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -48,7 +49,7 @@ public class ExcelReaderService
 
     public void closeExcelFile()
     {
-        CloseResourceTask.closeResource(this.excelReader);
+        ResourceCloser.closeResource(this.excelReader);
     }
     /*public List<String[]> getExcelRows()
     {
