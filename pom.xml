@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.github.orionlibs</groupId>
     <artifactId>orion-excel</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <name>Orion Excel</name>
     <description>Java MS Excel library</description>
     <url>https://github.com/orionlibs/orion-excel</url>
